@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 54px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+fieldset {
+  border: none;
+
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+
+  margin-top: 1rem;
+}
+
+.header-title {
+  text-align: right;
+}
