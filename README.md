@@ -71,9 +71,10 @@ O presente projeto tem o objetivo de consumir a API do spotify através do fluxo
 ---
 
 ### Autores
-[Mateus Demuno]
-[Julio Mendes/]
-[Mauro V. Santos/]
+-[Mateus Demuno]
+-[Julio Mendes/]
+-[Mauro V. Santos/]
+
 Never stop learning. 🧑‍🎓
 
 <h4 align="center"> 
