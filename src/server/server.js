@@ -1,5 +1,5 @@
 const express = require("express");
-const SpotifyWebApi = require("spotify-web-api-node");
+const SpotifyWebApi = require("spotify-web-api-node"); 
 const cors = require("cors");
 
 const app = express();
@@ -42,12 +42,12 @@ app.get(
   }
 );
 
-app.get("/recommendations", (req, res) => {
+app.get("/recommendations", (_req, res) => {
   spotifyApi
     .getRecommendations({
       limit: 100,
       min_energy: 0.9,
-      seed_artists: ["6mfK6Q2tzLMEchAr0e9Uzu", "4DYFVNKZ1uixa6SQTvzQwJ"],
+      seed_artists: ["7GvVTb8yFV0ZrdI30Qce6T", "6VlPp1wb53ANKMIwZPJfM0"],
       min_popularity: 50,
     })
     .then(
